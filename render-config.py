@@ -1,11 +1,19 @@
 worlds["myworld"] = "/tmp/world"
 
-renders["daytime"] = {
+renders["daytime-upper-right"] = {
     "world": "myworld",
-    "title": "Daytime",
-    "rendermode": smooth_lighting,
+    "title": "Daytime (upper-right)",
+    #"rendermode": smooth_lighting,
     "dimension": "overworld",
     "northdirection": "upper-right",
+    "defaultzoom": 2
+}
+renders["daytime"] = {
+    "world": "myworld",
+    "title": "Daytime (lower-left)",
+    #"rendermode": smooth_lighting,
+    "dimension": "overworld",
+    "northdirection": "lower-left",
     "defaultzoom": 2
 }
 
